@@ -1,36 +1,41 @@
 body{
     
-    background-image: url("cava.png.jpg");
-    font: normal 18pt arial ;
-    font-style: oblique;
     
-}
-header {
-    color: whitesmoke;
-    text-align: center;
+    font-family: consolas;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:  100vh;
+    background-image: url("fundo.png.jpg");
+    background-position: center;
     
-}
-section{
 
-    background-color: rgb(0, 0, 0);
+   
+}
+a{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #aedcff;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 40px;
+    overflow: hidden;
+    transition: 0.2s;
+
+    
+
+}
+a:hover{
+    color:#255784;
+    background: #e0e3e6 ;
     border-radius: 10px;
-    padding: 15px;
+    
+    padding: 20px;
     width: 300px;
-    margin: auto;
-    box-shadow: 5px 5px 10px black;
-    font :color blue ;
-
-
-}
-div {
-    text-align: center;
-}
-
-footer{
-    color: blanchedalmond;
-    text-align: center;
     
-    
-    text-shadow: 1px 1px 1px black;
-
+    box-shadow:   0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3,;
 }
